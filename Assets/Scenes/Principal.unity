@@ -208,6 +208,13 @@ GameObject:
   - component: {fileID: 531768567}
   - component: {fileID: 531768568}
   - component: {fileID: 531768569}
+  - component: {fileID: 531768570}
+  - component: {fileID: 531768571}
+  - component: {fileID: 531768572}
+  - component: {fileID: 531768573}
+  - component: {fileID: 531768574}
+  - component: {fileID: 531768575}
+  - component: {fileID: 531768576}
   m_Layer: 0
   m_Name: ParametersManager
   m_TagString: Untagged
@@ -299,6 +306,90 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: DurationTime
+--- !u!114 &531768570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531768562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 492807ae9625ac0489b64097584cd548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Textures
+--- !u!114 &531768571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531768562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc53a03280e0d2347832825cd9f948f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: LightingAndShading
+--- !u!114 &531768572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531768562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96bf7f79edc8cf4d820c2c423e6894b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: LightIntensity
+--- !u!114 &531768573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531768562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1ded0b03b5aa44082d71d38b5050ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: LightColor
+--- !u!114 &531768574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531768562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52faa892a9c2a147baa58740353c86d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Shadows
+--- !u!114 &531768575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531768562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ee089e37887e754b9795578352c6dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Reflections
+--- !u!114 &531768576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531768562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e1e4c7c403b53643956e499a7091aa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: ModelsQuality
 --- !u!1 &1421569748
 GameObject:
   m_ObjectHideFlags: 0
