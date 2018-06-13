@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public abstract class DataReader {
-	public abstract Dictionary<string,string> getRandomSample();
-
+	public abstract void getRandomSample();
 }

@@ -6,9 +6,10 @@ public class ExcelReader: DataReader  {
 
 	private ArrayList data;
 	private string[] parametersNames;
+	private ParametersManager pm;
 
-
-	public ExcelReader(){
+	public ExcelReader(ParametersManager p){
+		pm = p;
 		data = new ArrayList ();
 		readFile ();
 	}
@@ -33,13 +34,15 @@ public class ExcelReader: DataReader  {
 		}
 	}
 
-	public override Dictionary<string,string> getRandomSample(){
+	public override void getRandomSample(){
 		Dictionary<string,string> row = new Dictionary<string,string> ();
 		int r = Random.Range (0, data.Count);
 		string[] values = data [r]as string[];
 		for (int i = 0; i < parametersNames.Length; i++) {
 			row.Add (parametersNames [i], values [i]);
 		}
-		return row;
+		pm.getResponse (row);
 	}
+
+
 }
