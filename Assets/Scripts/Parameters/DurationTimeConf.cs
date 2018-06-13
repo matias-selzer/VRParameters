@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DurationTimeConf : ParameterConfigurator {
 
+
+
 	public override void configure(string value){
 
 		int val = 10;

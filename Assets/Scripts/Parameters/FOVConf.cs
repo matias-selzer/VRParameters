@@ -7,5 +7,7 @@ public class FOVConf : ParameterConfigurator {
 	public override void configure(string value){
 		Debug.Log ("FOV: " + value);
 	}
+		
+
 
 }

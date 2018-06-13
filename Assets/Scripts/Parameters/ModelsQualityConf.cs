@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ModelsQualityConf : ParameterConfigurator {
 
+
 	public override void configure(string value){
 
 		int val = 10;

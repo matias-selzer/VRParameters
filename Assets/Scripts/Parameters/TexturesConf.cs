@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TexturesConf : ParameterConfigurator {
 
+
+
 	public override void configure(string value){
 
 		int val = 10;

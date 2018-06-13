@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FPSConf : ParameterConfigurator {
 
+
 	public override void configure(string value){
 
 		int fps = 60;

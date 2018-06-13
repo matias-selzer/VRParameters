@@ -16,6 +16,7 @@ public class ParametersManager : MonoBehaviour {
 	public void initialize(){
 		reader = new ExcelReader ();
 		paraChildren = GetComponents<ParameterConfigurator> ();
+
 	}
 	
 	public void establishConfiguration(){
