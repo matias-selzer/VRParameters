@@ -36,17 +36,36 @@ public class TexturesConf : ParameterConfigurator {
 				mate.mainTexture = mat.mainTexture;
 			}
 		}
+		SkinnedMeshRenderer[] objectsS = GameObject.FindObjectsOfType<SkinnedMeshRenderer> ();
+		foreach(SkinnedMeshRenderer m in objectsS){
+			Material mat=unrealistics[Random.Range(0,unrealistics.Length)];
+			m.material = mat;
+			foreach (Material mate in m.materials) {
+				mate.mainTexture = mat.mainTexture;
+			}
+		}
 	}
 		
 	public void configureNoTextures(){
 		MeshRenderer[] objects = GameObject.FindObjectsOfType<MeshRenderer> ();
 		foreach(MeshRenderer m in objects){
 			m.material = simple;
+			float c = Random.Range (0, 100) / 100.0f;
 			foreach (Material mate in m.materials) {
 				mate.mainTexture = simple.mainTexture;
-				mate.color=new Color (Random.Range (0, 100)/100.0f, Random.Range (0, 100)/100.0f, Random.Range (0, 100)/100.0f);
+				mate.color=new Color (c,c,c);
 			}
-			m.material.color = new Color (Random.Range (0, 100)/100.0f, Random.Range (0, 100)/100.0f, Random.Range (0, 100)/100.0f);
+			m.material.color = new Color (c,c,c);
+		}
+		SkinnedMeshRenderer[] objectss = GameObject.FindObjectsOfType<SkinnedMeshRenderer> ();
+		foreach(SkinnedMeshRenderer m in objectss){
+			m.material = simple;
+			float c = Random.Range (0, 100) / 100.0f;
+			foreach (Material mate in m.materials) {
+				mate.mainTexture = simple.mainTexture;
+				mate.color=new Color (c,c,c);
+			}
+			m.material.color = new Color (c,c,c);
 		}
 	}
 }
