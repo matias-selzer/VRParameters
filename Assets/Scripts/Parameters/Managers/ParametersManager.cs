@@ -15,7 +15,7 @@ public class ParametersManager : MonoBehaviour {
 	}
 
 	void Update(){
-		if (Input.GetKeyDown (KeyCode.Space)) {
+		if (Input.GetKeyDown (KeyCode.R)) {
 			SceneManager.LoadScene (SceneManager.GetActiveScene().name);
 		}
 	}

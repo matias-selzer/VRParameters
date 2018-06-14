@@ -31,7 +31,7 @@ public class LightIntensityConf : ParameterConfigurator {
 		for (int i = 0; i < lights.Length; i++) {
 			lights [i].GetComponent<Light> ().intensity = intensity;
 		}
-		GameObject.FindGameObjectWithTag ("Flashlight").GetComponent<Light> ().intensity = intensity;
+		GameObject.FindGameObjectWithTag ("Flashlight").GetComponent<Light> ().intensity = intensity*3;
 		RenderSettings.ambientLight = new Color (intensity,intensity,intensity);
 	}
 }

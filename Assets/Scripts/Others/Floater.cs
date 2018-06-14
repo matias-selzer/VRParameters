@@ -9,7 +9,7 @@ public class Floater : MonoBehaviour {
 	float frequency = 1f;
 	private int rotX,rotY,rotZ;
 	private float initialY;
-	private bool activate;
+	public bool activate;
 
 	// Position Storage Variables
 	Vector3 posOffset = new Vector3 ();
@@ -26,7 +26,7 @@ public class Floater : MonoBehaviour {
 		rotY = Random.Range (0, 2);
 		rotZ = Random.Range (0, 2);
 		initialY = transform.position.y;
-		activate = Random.Range (0, 10) < 5;
+		activate = Random.Range (0, 10) < 2;
 	}
 
 	// Update is called once per frame

@@ -8,6 +8,9 @@ public class FPSConf : ParameterConfigurator {
 	public override void configure(string value){
 
 		int fps = 60;
+
+		value = "1";
+
 		if(int.TryParse (value,out fps)){
 			if (fps == 1)
 				fps = 60;

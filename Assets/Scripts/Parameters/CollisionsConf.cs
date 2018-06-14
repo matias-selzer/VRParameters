@@ -20,9 +20,10 @@ public class CollisionsConf : ParameterConfigurator {
 	}
 
 	public void deactivateCollisions(){
-		Collider[] colliders = GameObject.FindObjectsOfType<Collider> ();
-		foreach (Collider c in colliders) {
-			c.enabled = false;
+		GameObject[] colliders = GameObject.FindGameObjectsWithTag ("CollisionRemover");
+		foreach (GameObject c in colliders) {
+			foreach(Collider col in c.GetComponentsInChildren<Collider>())
+				col.enabled = false;
 		}
 	}
 

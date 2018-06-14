@@ -9,6 +9,7 @@ TagManager:
   - LowPoly
   - HighPoly
   - Avatar
+  - CollisionRemover
   layers:
   - Default
   - TransparentFX
