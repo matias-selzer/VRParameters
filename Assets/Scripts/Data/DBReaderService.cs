@@ -5,7 +5,8 @@ using System;
 
 public class DBReaderService : MonoBehaviour {
 
-	public string url="http://192.168.11.8:3000/environment";
+	//public string url="http://192.168.11.8:3000/environment";
+	private string url="https://blooming-springs-30536.herokuapp.com/environment";
 	private string response="";
 	private DBReader dbr;
 
@@ -13,7 +14,6 @@ public class DBReaderService : MonoBehaviour {
 	{
 		WWW www = new WWW(url);
 		yield return www;
-		//Debug.Log (www.text);
 		dbr.getResponse(www.text);
 	}
 
