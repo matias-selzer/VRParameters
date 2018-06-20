@@ -2720,6 +2720,10 @@ Prefab:
       propertyPath: movementSettings.SlopeCurveModifier.m_Curve.Array.data[1].value
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 2}
+      propertyPath: near clip plane
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 2}
   m_IsPrefabParent: 0
@@ -8114,9 +8118,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1275824865}
+  - component: {fileID: 1275824866}
   m_Layer: 0
   m_Name: Fountain
-  m_TagString: Untagged
+  m_TagString: CollisionRemover
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8136,6 +8141,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1275824866
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275824864}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.04
+  m_Center: {x: 0.19, y: -1.83, z: -0.2}
 --- !u!1001 &1287774928
 Prefab:
   m_ObjectHideFlags: 0

@@ -11,18 +11,20 @@ public class GravityConf : ParameterConfigurator {
 		if(int.TryParse (value,out val)){
 			if (val == 0) {
 				output = "No";
+				deactivateGravity ();
 			} else if (val == 1) {
 				output = "Yes";
-				activateGravity ();
 			}
 		}
 		Debug.Log (name+": " + value+" - "+output);
 	}
 
-	public void activateGravity(){
+	public void deactivateGravity(){
 		Floater[] floaters = GameObject.FindObjectsOfType<Floater> ();
 		foreach (Floater f in floaters) {
-				f.enabled = false;
+			f.setActivation ();
 		}
 	}
+
+
 }

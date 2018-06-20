@@ -26,7 +26,8 @@ public class Floater : MonoBehaviour {
 		rotY = Random.Range (0, 2);
 		rotZ = Random.Range (0, 2);
 		initialY = transform.position.y;
-		activate = Random.Range (0, 10) < 2;
+		//activate = Random.Range (0, 10) < 2;
+		activate = false;
 	}
 
 	// Update is called once per frame
@@ -41,6 +42,12 @@ public class Floater : MonoBehaviour {
 			tempPos.y += initialY;
 
 			transform.position = tempPos;
+		}
+	}
+
+	public void setActivation(){
+		if (Random.Range (0, 10) < 2) {
+			activate = true;
 		}
 	}
 
