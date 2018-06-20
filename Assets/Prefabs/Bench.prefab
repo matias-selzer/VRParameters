@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4134637410292822}
   - component: {fileID: 114350489395098874}
+  - component: {fileID: 65966018122511396}
   m_Layer: 0
   m_Name: Bench
   m_TagString: CollisionRemover
@@ -54,7 +55,6 @@ GameObject:
   - component: {fileID: 4677172657743922}
   - component: {fileID: 33673700891130688}
   - component: {fileID: 23554692269142070}
-  - component: {fileID: 65577850790775288}
   m_Layer: 0
   m_Name: streetbanch1
   m_TagString: HighPoly
@@ -186,18 +186,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1784319784275364}
   m_Mesh: {fileID: 4300000, guid: 424f02a8bbe967444b4901a73f199589, type: 3}
---- !u!65 &65577850790775288
+--- !u!65 &65966018122511396
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1946640782978594}
+  m_GameObject: {fileID: 1244866328522206}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2356524, y: 0.4076365, z: 0.5585951}
-  m_Center: {x: -0.011097251, y: 0.025660446, z: 0.27929744}
+  m_Size: {x: 1.37, y: 1.56, z: 3.77}
+  m_Center: {x: -1.22, y: 0.98, z: 1.06}
 --- !u!114 &114350489395098874
 MonoBehaviour:
   m_ObjectHideFlags: 1

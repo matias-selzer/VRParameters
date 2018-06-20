@@ -71,6 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4855964745330424}
   - component: {fileID: 114617390017887942}
+  - component: {fileID: 136142397587511782}
   m_Layer: 0
   m_Name: Arbol2
   m_TagString: CollisionRemover
@@ -124,8 +125,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1853151754378762}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.875125, y: 2.6996462, z: -0.4683056}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.14, y: 2.6996462, z: 2.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4586634305810320}
@@ -260,3 +261,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activate: 0
+--- !u!136 &136142397587511782
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1853151754378762}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.72
+  m_Height: 6.51
+  m_Direction: 1
+  m_Center: {x: 3.9, y: 0.42, z: 1.97}

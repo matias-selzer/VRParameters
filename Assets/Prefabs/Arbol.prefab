@@ -71,6 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4201623465134318}
   - component: {fileID: 114226767723156566}
+  - component: {fileID: 136194762427873202}
   m_Layer: 0
   m_Name: Arbol
   m_TagString: CollisionRemover
@@ -260,3 +261,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activate: 0
+--- !u!136 &136194762427873202
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1975021776663482}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.1
+  m_Height: 4.49
+  m_Direction: 1
+  m_Center: {x: -0.33, y: 2.78, z: -3.13}
