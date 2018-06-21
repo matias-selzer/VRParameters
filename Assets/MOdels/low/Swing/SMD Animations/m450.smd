@@ -1,0 +1,13 @@
+version 1
+nodes
+0 "Nw4cRoot" -1
+1 "bala_root" 0
+2 "bala01" 1
+3 "bala02" 2
+4 "bala03" 3
+5 "bala04" 4
+6 "bala05" 5
+7 "blanco" 0
+end
+skeleton
+end

@@ -1,0 +1,27 @@
+version 1
+nodes
+0 "Nw4cRoot" -1
+1 "ch03_00" 0
+2 "root" 0
+3 "hip" 2
+4 "l_skirt" 3
+5 "l_thigh" 3
+6 "l_knee" 5
+7 "l_ankle" 6
+8 "r_skirt" 3
+9 "r_thigh" 3
+10 "r_knee" 9
+11 "r_ankle" 10
+12 "spine" 2
+13 "l_shoulder" 12
+14 "l_arm" 13
+15 "l_elbow" 14
+16 "l_wrist" 15
+17 "neck" 12
+18 "r_shoulder" 12
+19 "r_arm" 18
+20 "r_elbow" 19
+21 "r_wrist" 20
+end
+skeleton
+end
