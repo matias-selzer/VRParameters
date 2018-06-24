@@ -1,0 +1,38 @@
+newmtl Model001_Material001
+map_Kd Piers_LEye.png
+map_bump Piers_Eye_NM.png
+
+newmtl Model001_Material002
+map_Kd Piers_REye.png
+map_bump Piers_Eye_NM.png
+
+newmtl Model001_Material003
+map_Kd Piers_Face.png
+map_bump Piers_Face_NM.png
+
+newmtl Model001_Material004
+map_Kd Body.png
+map_bump footmale_n.png
+
+newmtl Model001_Material005
+map_Kd Body.png
+map_bump footmale_n.png
+
+newmtl Model001_Material006
+map_Kd Body.png
+map_bump footmale_n.png
+
+newmtl Model001_Material007
+map_Kd Body.png
+map_bump footmale_n.png
+
+newmtl Model001_Material008
+map_Kd pl0300_00Hair_BM.png
+map_bump pl0300_00Hair_NM.png
+
+newmtl Model001_Material009
+map_Kd pl0300_00eyelash_BM.png
+
+newmtl Model001_Material010
+map_Kd pl0300_00eyelash_BM.png
+

@@ -1,0 +1,60 @@
+newmtl Model001_Material001
+map_Kd om1400_001_BM.png
+map_bump om1400_001_NM.png
+
+newmtl Model001_Material002
+map_Kd om1400_001_BM.png
+map_bump om1400_001_NM.png
+
+newmtl Model001_Material003
+map_Kd om1400_001_BM.png
+map_bump om1400_001_NM.png
+
+newmtl Model001_Material004
+map_Kd om1400_001_BM.png
+map_bump om1400_001_NM.png
+
+newmtl Model001_Material005
+map_Kd pl1000_hair00_BM.png
+map_bump pl1000_hair00_NM.png
+
+newmtl Model001_Material006
+map_Kd pl1000_hair00_BM.png
+map_bump pl1000_hair00_NM.png
+
+newmtl Model001_Material007
+map_Kd pl1000_hair00_BM.png
+map_bump pl1000_hair00_NM.png
+
+newmtl Model001_Material008
+map_Kd pl1000_hair00_BM.png
+map_bump pl1000_hair00_NM.png
+
+newmtl Model001_Material009
+map_Kd pl1000_hair00_BM.png
+map_bump pl1000_hair00_NM.png
+
+newmtl Model001_Material010
+map_Kd pl1000_hair00_BM.png
+map_bump pl1000_hair00_NM.png
+
+newmtl Model001_Material011
+map_Kd pl1000_hair00_BM.png
+map_bump pl1000_hair00_NM.png
+
+newmtl Model001_Material012
+map_Kd pl1000_hair00_BM.png
+map_bump pl1000_hair00_NM.png
+
+newmtl Model001_Material013
+map_Kd pl1000_hair00_BM.png
+map_bump pl1000_hair00_NM.png
+
+newmtl Model001_Material014
+map_Kd pl1000_hair00_BM.png
+map_bump pl1000_hair00_NM.png
+
+newmtl Model001_Material015
+map_Kd pl1000_hair00_BM.png
+map_bump pl1000_hair00_NM.png
+

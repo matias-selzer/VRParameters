@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 61aae039aae5e7a4b8157f78183e5d42
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: 24_eyeballr(1)_1.0_0.0_0.0
+    100002: 24_eyeballr_1.0_0.0_0.0
+    100004: 24_jasonarms_1.0_0.0_0.0
+    100006: 24_jasonarmstat_1.0_0.0_0.0
+    100008: 24_jasonfacemap_1.0_0.0_0.0
+    100010: 24_jasonpants_1.0_0.0_0.0
+    100012: 24_jasonshirt_1.0_0.0_0.0
+    100014: 24_jasonshoes_1.0_0.0_0.0
+    100016: 24_teeth_1.0_0.0_0.0
+    100018: 7_hair1_0.1_0.0_0.0
+    100020: 7_hair2_0.1_0.0_0.0
+    100022: 7_hair3_0.1_0.0_0.0
+    100024: 7_hair_0.1_0.0_0.0
+    100026: //RootNode
+    400000: 24_eyeballr(1)_1.0_0.0_0.0
+    400002: 24_eyeballr_1.0_0.0_0.0
+    400004: 24_jasonarms_1.0_0.0_0.0
+    400006: 24_jasonarmstat_1.0_0.0_0.0
+    400008: 24_jasonfacemap_1.0_0.0_0.0
+    400010: 24_jasonpants_1.0_0.0_0.0
+    400012: 24_jasonshirt_1.0_0.0_0.0
+    400014: 24_jasonshoes_1.0_0.0_0.0
+    400016: 24_teeth_1.0_0.0_0.0
+    400018: 7_hair1_0.1_0.0_0.0
+    400020: 7_hair2_0.1_0.0_0.0
+    400022: 7_hair3_0.1_0.0_0.0
+    400024: 7_hair_0.1_0.0_0.0
+    400026: //RootNode
+    2300000: 24_eyeballr(1)_1.0_0.0_0.0
+    2300002: 24_eyeballr_1.0_0.0_0.0
+    2300004: 24_jasonarms_1.0_0.0_0.0
+    2300006: 24_jasonarmstat_1.0_0.0_0.0
+    2300008: 24_jasonfacemap_1.0_0.0_0.0
+    2300010: 24_jasonpants_1.0_0.0_0.0
+    2300012: 24_jasonshirt_1.0_0.0_0.0
+    2300014: 24_jasonshoes_1.0_0.0_0.0
+    2300016: 24_teeth_1.0_0.0_0.0
+    2300018: 7_hair1_0.1_0.0_0.0
+    2300020: 7_hair2_0.1_0.0_0.0
+    2300022: 7_hair3_0.1_0.0_0.0
+    2300024: 7_hair_0.1_0.0_0.0
+    3300000: 24_eyeballr(1)_1.0_0.0_0.0
+    3300002: 24_eyeballr_1.0_0.0_0.0
+    3300004: 24_jasonarms_1.0_0.0_0.0
+    3300006: 24_jasonarmstat_1.0_0.0_0.0
+    3300008: 24_jasonfacemap_1.0_0.0_0.0
+    3300010: 24_jasonpants_1.0_0.0_0.0
+    3300012: 24_jasonshirt_1.0_0.0_0.0
+    3300014: 24_jasonshoes_1.0_0.0_0.0
+    3300016: 24_teeth_1.0_0.0_0.0
+    3300018: 7_hair1_0.1_0.0_0.0
+    3300020: 7_hair2_0.1_0.0_0.0
+    3300022: 7_hair3_0.1_0.0_0.0
+    3300024: 7_hair_0.1_0.0_0.0
+    4300000: 24_eyeballr(1)_1.0_0.0_0.0
+    4300002: 24_eyeballr_1.0_0.0_0.0
+    4300004: 24_jasonarms_1.0_0.0_0.0
+    4300006: 24_jasonarmstat_1.0_0.0_0.0
+    4300008: 24_jasonfacemap_1.0_0.0_0.0
+    4300010: 24_jasonpants_1.0_0.0_0.0
+    4300012: 24_jasonshirt_1.0_0.0_0.0
+    4300014: 24_jasonshoes_1.0_0.0_0.0
+    4300016: 24_teeth_1.0_0.0_0.0
+    4300018: 7_hair1_0.1_0.0_0.0
+    4300020: 7_hair2_0.1_0.0_0.0
+    4300022: 7_hair3_0.1_0.0_0.0
+    4300024: 7_hair_0.1_0.0_0.0
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
