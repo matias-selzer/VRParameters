@@ -1,22 +1,11 @@
 fileFormatVersion: 2
 guid: b77dbcf466f3c424b8629799b5d00883
+timeCreated: 18446744011573954816
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: streetbench1
-    400000: //RootNode
-    400002: streetbench1
-    2300000: streetbench1
-    3300000: streetbench1
     4300000: streetbench1
-    11100000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material__AO.tga.001
-    second: {fileID: 2100000, guid: 72f56a2f4b124974cb37cec32279c896, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 3
@@ -35,7 +24,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -67,8 +55,6 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 1

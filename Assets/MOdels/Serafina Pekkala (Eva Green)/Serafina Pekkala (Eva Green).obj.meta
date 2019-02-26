@@ -1,7 +1,9 @@
 fileFormatVersion: 2
 guid: 6783a20618ec14b40b9fe2acc8f33a7b
+timeCreated: 1528982581
+licenseType: Free
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: eva_green_eva_gre.001_eva_green_eva_gre.001_Tex_0575_0_dds_Tex_05_Tex_0575_0.dds
     100002: eva_green_eva_gre.003_eva_green_eva_gre.003_Tex_0577_0_dds_Tex_05_Tex_0578_0.dds
@@ -65,7 +67,6 @@ ModelImporter:
     4300014: eva_green_eva_gre_eva_green_eva_gre.009_Tex_0577_0_dds_Te_Tex_Tex_0643_0.dds
     4300016: eva_green_eva_gre_eva_green_eva_gre.009_Tex_0641_0_dds_Tex_06_Tex_0643_0.dds
     4300018: eva_green_eva_gre_eva_green_eva_gre.009_Tex_0644_0_dds_Tex_06_Tex_0643_0.dds
-    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -85,7 +86,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -117,8 +117,6 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

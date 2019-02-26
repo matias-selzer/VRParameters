@@ -1,9 +1,10 @@
 fileFormatVersion: 2
 guid: daa12d03353c89843ad51f71c96fe180
+timeCreated: 1528982204
+licenseType: Free
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    2186277476908879412: ImportLogs
+  serializedVersion: 22
+  fileIDToRecycleName: {}
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -23,7 +24,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -55,8 +55,6 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
