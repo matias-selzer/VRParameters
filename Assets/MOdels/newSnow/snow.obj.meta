@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: 3d4d729b72f33d04c81a706e2fdfa4a4
-timeCreated: 1529862352
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: Model001_22_clothes2_0.8_10_15
     100002: Model001_24_belt_1_0_0.001
@@ -40,6 +38,17 @@ ModelImporter:
     2100016: Model001_Material002
     2100018: Model001_Material007
     2100020: Model001_Material011
+    2100022: Model001_22_clothes2_0.8_10_15Mat
+    2100024: Model001_24_belt_1_0_0.001Mat
+    2100026: Model001_24_body!!_1_0_0.001Mat
+    2100028: Model001_24_body!1nPart!_1_0_0.001Mat
+    2100030: Model001_24_boots_1_0_0Mat
+    2100032: Model001_24_mouth_1_0_0.001Mat
+    2100034: Model001_25_eyes_1_0_0Mat
+    2100036: Model001_25_facialhair_0.1_0_0Mat
+    2100038: Model001_25_hair_1_0_0Mat
+    2100040: Model001_25_lashes_1_0_0.001Mat
+    2100042: Model001_27_eyeref_0.3_0_0Mat
     2300000: Model001_22_clothes2_0.8_10_15
     2300002: Model001_24_belt_1_0_0.001
     2300004: Model001_24_body!!_1_0_0.001
@@ -92,6 +101,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -106,6 +116,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -123,11 +134,16 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -142,7 +158,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
