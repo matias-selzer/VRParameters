@@ -16,9 +16,15 @@ public class StereopsisConf : ParameterConfigurator {
 			else if (val == 1)
 				activate = true;
 		}
-			
-		//real activate or deactivate stereopsis
 
-		Debug.Log ("Stereopsis: " + value+" - "+"Activate:"+activate);
+        //real activate or deactivate stereopsis
+        if (!activate)
+        {
+            Camera m_Camera = Camera.main;
+            m_Camera.transform.localScale = Vector3.zero;
+        }
+
+
+        Debug.Log ("Stereopsis: " + value+" - "+"Activate:"+activate);
 	}
 }
