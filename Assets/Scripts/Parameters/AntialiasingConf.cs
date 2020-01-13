@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR;
 
 public class AntialiasingConf : ParameterConfigurator {
 
@@ -19,9 +20,21 @@ public class AntialiasingConf : ParameterConfigurator {
 				val = 8;
 		}
 
-		QualitySettings.antiAliasing = val;
+        // val = 16;
 
-		Debug.Log ("Antialiasing: " + value+" - "+"Value:"+val+"x MultiSampling");
+        //asumamos que esto funciona 
+        //SOLO USAR 4 O NADA
+        QualitySettings.antiAliasing = val;
+
+        //esto pasarlo a un ResolutionConf
+        //estudiar bien el tema de la resolución
+        Debug.Log("h init "+XRSettings.eyeTextureHeight);
+        Debug.Log("w init " + XRSettings.eyeTextureWidth);
+       // XRSettings.eyeTextureResolutionScale = 2f;
+        Debug.Log("h final " + XRSettings.eyeTextureHeight);
+        Debug.Log("w final " + XRSettings.eyeTextureWidth);
+
+        Debug.Log ("Antialiasing: " + value+" - "+"Value:"+val+"x MultiSampling");
 
 	}
 }

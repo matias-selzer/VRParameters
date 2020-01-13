@@ -23,7 +23,9 @@ public class TexturesConf : ParameterConfigurator {
 			}
 		}
 
-		Debug.Log (name+": " + value+" - "+output);
+        //ACOMODAR PARA SOLO SIN TEXTURA Y REALISTA
+
+        Debug.Log (name+": " + value+" - "+output);
 
 	}
 

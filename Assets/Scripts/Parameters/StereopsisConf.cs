@@ -21,7 +21,7 @@ public class StereopsisConf : ParameterConfigurator {
         if (!activate)
         {
             Camera m_Camera = Camera.main;
-            m_Camera.transform.localScale = Vector3.zero;
+            //m_Camera.transform.localScale = Vector3.zero;
         }
 
 
